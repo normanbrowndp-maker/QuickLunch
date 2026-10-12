@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>QuickLunch — Чат</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body data-page="chat-page">
+    <header class="site-header">
+      <div class="container header-inner">
+        <a href="index.html" class="brand" aria-label="На главную страницу QuickLunch">QuickLunch</a>
+        <nav class="main-nav" aria-label="Основная навигация">
+          <ul>
+            <li><a href="index.html">Главная</a></li>
+            <li><a href="index.html#catalog">Каталог</a></li>
+            <li><a href="cart.html">Корзина <span class="cart-badge" data-cart-count>0</span></a></li>
+            <li><a href="profile.html">Профиль</a></li>
+            <li><a href="chat.html">Чат</a></li>
+            <li><a href="index.html#about-contacts">О нас</a></li>
+          </ul>
+        </nav>
+        <a href="index.html#order" class="button button-primary">Оформить заказ</a>
+      </div>
+    </header>
+
+    <main class="container section-spaced">
+      <section class="chat-page">
+        <div class="catalog-page__top">
+          <div>
+            <p class="eyebrow">Чат</p>
+            <h1>Связь с оператором</h1>
+          </div>
+          <a href="index.html" class="button button-secondary">На главную</a>
+        </div>
+
+        <div class="chat-box">
+          <div id="chat-messages" class="chat-messages"></div>
+          <form id="chat-form" class="chat-form">
+            <input id="chat-message" type="text" placeholder="Напишите сообщение..." />
+            <button type="submit" class="button button-primary">Отправить</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>

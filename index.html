@@ -1,0 +1,295 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="QuickLunch — сервис для организации поставок продуктов питания в столовую колледжа. Оформление заявок, каталог, корзина, профиль и чат для сотрудников учебного учреждения."
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>QuickLunch — Поставка продуктов для столовой колледжа</title>
+  </head>
+  <body data-page="home-page">
+    <header class="site-header">
+      <div class="container header-inner">
+        <a href="index.html" class="brand" aria-label="На главную страницу QuickLunch">QuickLunch</a>
+        <nav class="main-nav" aria-label="Основная навигация">
+          <ul>
+            <li><a href="index.html">Главная</a></li>
+            <li><a href="#catalog">Каталог</a></li>
+            <li><a href="cart.html">Корзина <span class="cart-badge" data-cart-count>0</span></a></li>
+            <li><a href="profile.html">Профиль</a></li>
+            <li><a href="chat.html">Чат</a></li>
+            <li><a href="#about-contacts">О нас</a></li>
+          </ul>
+        </nav>
+        <a href="#order" class="button button-primary">Оформить заказ</a>
+      </div>
+    </header>
+
+    <main class="container">
+      <section id="hero" class="hero section-spaced" aria-labelledby="hero-title">
+        <h1 id="hero-title">Поставка продуктов для столовой колледжа — в одном сервисе</h1>
+        <p class="lead-text">
+          QuickLunch помогает организовать заказ продуктов для столовой в одном удобном месте:
+          подобрать нужные позиции, согласовать объёмы и условия поставки, а затем зафиксировать
+          заявку в единой системе.
+        </p>
+        <div class="cta-row">
+          <a href="#order" class="button button-primary">Оформить заявку</a>
+          <a href="#how-it-works" class="button button-secondary">Как это работает</a>
+        </div>
+      </section>
+
+      <section id="benefits" class="section-spaced" aria-labelledby="benefits-title">
+        <div class="section-header block-header">
+          <p class="eyebrow">Преимущества</p>
+          <h2 id="benefits-title">Почему QuickLunch</h2>
+        </div>
+        <div class="three-column-grid">
+          <article class="info-card">
+            <h3>Удобное оформление заказов</h3>
+            <p>Формирование заявки проходит в понятной и структурированной форме.</p>
+          </article>
+          <article class="info-card">
+            <h3>Организованный процесс закупки продуктов</h3>
+            <p>Сервис помогает структурировать запросы и поддерживать порядок в работе.</p>
+          </article>
+          <article class="info-card">
+            <h3>Возможность согласования объёмов и условий поставки</h3>
+            <p>Можно заранее определить нужный объём, сроки и пожелания по доставке.</p>
+          </article>
+          <article class="info-card">
+            <h3>Централизованная информация о заказах</h3>
+            <p>Все заявки и данные по поставкам удобно держать в одном месте.</p>
+          </article>
+          <article class="info-card">
+            <h3>Основа для дальнейшего подключения новых поставщиков и колледжей</h3>
+            <p>Подход поддерживает рост и расширение сервиса на несколько учреждений.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="catalog" class="section-spaced" aria-labelledby="catalog-title">
+        <div class="section-header block-header">
+          <p class="eyebrow">Каталог</p>
+          <h2 id="catalog-title">Каталог продуктов</h2>
+        </div>
+        <p class="catalog-summary">Предварительный ассортимент. В дальнейшем здесь можно будет добавить конкретные позиции, единицы измерения, цены, остатки и информацию о поставщиках.</p>
+        <div class="catalog-grid">
+          <article class="catalog-card">
+            <h3>Овощи и фрукты</h3>
+            <p>Свежие овощи и фрукты для повседневного меню столовой.</p>
+            <a href="catalog-vegetables.html" class="button button-primary btn-small">Выбрать продукты</a>
+          </article>
+          <article class="catalog-card">
+            <h3>Мясо и птица</h3>
+            <p>Базовые продукты для приготовления горячих блюд и разнообразных рационов.</p>
+            <a href="catalog-meat.html" class="button button-primary btn-small">Выбрать продукты</a>
+          </article>
+          <article class="catalog-card">
+            <h3>Рыба</h3>
+            <p>Ассортимент для включения в меню и планирования регулярных поставок.</p>
+            <a href="catalog-fish.html" class="button button-primary btn-small">Выбрать продукты</a>
+          </article>
+          <article class="catalog-card">
+            <h3>Молочные продукты</h3>
+            <p>Позиции для питания и приготовления блюд, включая молочные товары.</p>
+            <a href="catalog-dairy.html" class="button button-primary btn-small">Выбрать продукты</a>
+          </article>
+          <article class="catalog-card">
+            <h3>Бакалея и крупы</h3>
+            <p>Основные продукты для приготовления каш, гарниров и других блюд.</p>
+            <a href="catalog-grocery.html" class="button button-primary btn-small">Выбрать продукты</a>
+          </article>
+          <article class="catalog-card">
+            <h3>Хлеб и хлебобулочные изделия</h3>
+            <p>Категория для регулярного пополнения запасов и стабильного питания.</p>
+            <a href="catalog-bakery.html" class="button button-primary btn-small">Выбрать продукты</a>
+          </article>
+        </div>
+      </section>
+
+      <section id="how-it-works" class="section-spaced" aria-labelledby="how-it-works-title">
+        <div class="section-header block-header">
+          <p class="eyebrow">Процесс</p>
+          <h2 id="how-it-works-title">Как это работает</h2>
+        </div>
+        <ol class="steps-grid">
+          <li class="step-card">
+            <article data-step="1">
+              <h3>1. Выбор продуктов</h3>
+              <p>Колледж определяет необходимые позиции из предварительного каталога.</p>
+            </article>
+          </li>
+          <li class="step-card">
+            <article data-step="2">
+              <h3>2. Указание условий</h3>
+              <p>Ответственный сотрудник указывает количество и желаемые условия поставки.</p>
+            </article>
+          </li>
+          <li class="step-card">
+            <article data-step="3">
+              <h3>3. Согласование заказа</h3>
+              <p>Представитель QuickLunch или поставщик согласовывает заказ, стоимость и дату доставки.</p>
+            </article>
+          </li>
+          <li class="step-card">
+            <article data-step="4">
+              <h3>4. Поставка и фиксация</h3>
+              <p>Продукты поставляются в столовую, а заявка фиксируется в системе для дальнейшего контроля.</p>
+            </article>
+          </li>
+        </ol>
+      </section>
+
+      <section id="order" class="section-spaced" aria-labelledby="order-title">
+        <div class="section-header block-header">
+          <p class="eyebrow">Форма</p>
+          <h2 id="order-title">Заявка на поставку</h2>
+        </div>
+        <form id="order-form" class="order-form" action="#" method="post">
+          <fieldset>
+            <legend>Информация о заказчике</legend>
+            <div class="field-grid">
+              <div>
+                <label for="college-name">Название колледжа</label>
+                <input id="college-name" name="college-name" type="text" placeholder="Например: Колледж имени ..." required />
+              </div>
+              <div>
+                <label for="responsible-person">ФИО ответственного сотрудника</label>
+                <input id="responsible-person" name="responsible-person" type="text" required />
+              </div>
+              <div>
+                <label for="phone">Контактный телефон</label>
+                <input id="phone" name="phone" type="tel" required />
+              </div>
+              <div>
+                <label for="email">Электронная почта</label>
+                <input id="email" name="email" type="email" required />
+              </div>
+            </div>
+          </fieldset>
+
+          <fieldset>
+            <legend>Информация о поставке</legend>
+            <div class="field-grid">
+              <div>
+                <label for="category">Категория продукта</label>
+                <select id="category" name="category" required>
+                  <option value="">Выберите категорию</option>
+                  <option value="vegetables">Овощи и фрукты</option>
+                  <option value="meat">Мясо и птица</option>
+                  <option value="fish">Рыба</option>
+                  <option value="dairy">Молочные продукты</option>
+                  <option value="grocery">Бакалея и крупы</option>
+                  <option value="bakery">Хлеб и хлебобулочные изделия</option>
+                </select>
+              </div>
+              <div>
+                <label for="products">Название продукта или перечень необходимых продуктов</label>
+                <textarea id="products" name="products" rows="4" placeholder="Укажите наименование или список продуктов" required></textarea>
+              </div>
+              <div>
+                <label for="quantity">Количество</label>
+                <input id="quantity" name="quantity" type="number" min="1" step="1" required />
+              </div>
+              <div>
+                <label for="unit">Единица измерения</label>
+                <select id="unit" name="unit" required>
+                  <option value="">Выберите единицу измерения</option>
+                  <option value="кг">кг</option>
+                  <option value="г">г</option>
+                  <option value="л">л</option>
+                  <option value="шт.">шт.</option>
+                  <option value="коробка">коробка</option>
+                  <option value="упаковка">упаковка</option>
+                </select>
+              </div>
+              <div>
+                <label for="delivery-date">Желаемая дата поставки</label>
+                <input id="delivery-date" name="delivery-date" type="date" required />
+              </div>
+              <div>
+                <label for="delivery-address">Адрес или место приёмки</label>
+                <input id="delivery-address" name="delivery-address" type="text" required />
+              </div>
+              <div class="full-width">
+                <label for="comments">Дополнительные требования и комментарии</label>
+                <textarea id="comments" name="comments" rows="4" placeholder="Укажите дополнительную информацию по заказу"></textarea>
+              </div>
+            </div>
+          </fieldset>
+
+          <div class="order-submit-row">
+            <button type="submit" class="button button-primary">Отправить заявку</button>
+          </div>
+        </form>
+      </section>
+
+      <section id="faq" class="section-spaced" aria-labelledby="faq-title">
+        <div class="section-header block-header">
+          <p class="eyebrow">FAQ</p>
+          <h2 id="faq-title">Часто задаваемые вопросы</h2>
+        </div>
+
+        <div class="faq-list">
+          <details>
+            <summary>Как оформить заявку на поставку?</summary>
+            <p>Необходимо заполнить форму заявки, указать необходимые продукты, объём и условия поставки, после чего информация будет передана на согласование.</p>
+          </details>
+          <details>
+            <summary>Можно ли заказать несколько категорий продуктов?</summary>
+            <p>Да, в заявке можно указать несколько позиций или категорий, если требуется сформировать комплексный заказ.</p>
+          </details>
+          <details>
+            <summary>Как согласовываются цена и дата поставки?</summary>
+            <p>Цена, дата и условия поставки согласовываются после первичного запроса и уточнения деталей заказа.</p>
+          </details>
+          <details>
+            <summary>Кто связывается с колледжем после отправки заявки?</summary>
+            <p>После отправки заявки с колледжем может связаться представитель QuickLunch, поставщик или ответственный сотрудник, который занимается согласованием заказа.</p>
+          </details>
+          <details>
+            <summary>Можно ли изменить заказ до согласования?</summary>
+            <p>Да, при необходимости возможно уточнение состава или объёма заявки до окончательного согласования условий поставки.</p>
+          </details>
+        </div>
+      </section>
+
+      <section id="about-contacts" class="section-spaced" aria-labelledby="about-contacts-title">
+        <div class="section-header block-header">
+          <p class="eyebrow">Контакты</p>
+          <h2 id="about-contacts-title">О нас и контакты</h2>
+        </div>
+        <div class="contact-card">
+          <p><strong>QuickLunch</strong> — проект, направленный на упрощение организации поставок продуктов питания для столовых колледжей.</p>
+          <p>Основная цель сервиса — сделать процесс закупки понятным, удобным и организованным для сотрудников учреждений.</p>
+          <ul>
+            <li>Телефон: [Указать контактный телефон]</li>
+            <li>Электронная почта: [Указать электронную почту]</li>
+            <li>Адрес: [Указать адрес компании]</li>
+            <li>Время работы: [Указать время работы]</li>
+          </ul>
+          <p>Свяжитесь с командой QuickLunch, чтобы обсудить организацию поставок и условия сотрудничества.</p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p><strong>QuickLunch</strong></p>
+        <p>© [Указать год] — проект QuickLunch</p>
+        <nav aria-label="Дополнительная навигация">
+          <ul>
+            <li><a href="#about-contacts">Политика конфиденциальности</a></li>
+            <li><a href="#faq">Условия использования</a></li>
+          </ul>
+        </nav>
+      </div>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>

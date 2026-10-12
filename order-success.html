@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>QuickLunch — Заявка отправлена</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body data-page="success-page">
+    <header class="site-header">
+      <div class="container header-inner">
+        <a href="index.html" class="brand" aria-label="На главную страницу QuickLunch">QuickLunch</a>
+        <nav class="main-nav" aria-label="Основная навигация">
+          <ul>
+            <li><a href="index.html">Главная</a></li>
+            <li><a href="index.html#catalog">Каталог</a></li>
+            <li><a href="cart.html">Корзина <span class="cart-badge" data-cart-count>0</span></a></li>
+            <li><a href="profile.html">Профиль</a></li>
+            <li><a href="chat.html">Чат</a></li>
+            <li><a href="index.html#about-contacts">О нас</a></li>
+          </ul>
+        </nav>
+        <a href="index.html#order" class="button button-primary">Оформить заказ</a>
+      </div>
+    </header>
+
+    <main class="container section-spaced">
+      <section class="success-page">
+        <div class="success-card">
+          <div class="success-icon" aria-label="Успешно">✓</div>
+          <h1>Заявка отправлена</h1>
+          <p>Ваша заявка отправлена на согласование. Мы свяжемся с вами для уточнения деталей.</p>
+          <p id="success-order-meta"></p>
+          <div class="success-actions">
+            <a href="chat.html" class="button button-primary">Перейти в чат</a>
+            <a href="index.html" class="button button-secondary">Вернуться на главную</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>QuickLunch — Хлеб и хлебобулочные изделия</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body data-page="catalog-page" data-category="bakery">
+    <header class="site-header">
+      <div class="container header-inner">
+        <a href="index.html" class="brand" aria-label="На главную страницу QuickLunch">QuickLunch</a>
+        <nav class="main-nav" aria-label="Основная навигация">
+          <ul>
+            <li><a href="index.html">Главная</a></li>
+            <li><a href="index.html#catalog">Каталог</a></li>
+            <li><a href="cart.html">Корзина <span class="cart-badge" data-cart-count>0</span></a></li>
+            <li><a href="profile.html">Профиль</a></li>
+            <li><a href="chat.html">Чат</a></li>
+            <li><a href="index.html#about-contacts">О нас</a></li>
+          </ul>
+        </nav>
+        <a href="index.html#order" class="button button-primary">Оформить заказ</a>
+      </div>
+    </header>
+
+    <main class="container section-spaced">
+      <section class="catalog-page">
+        <div class="catalog-page__top">
+          <div>
+            <p class="eyebrow">Каталог</p>
+            <h1>Хлеб и хлебобулочные изделия</h1>
+          </div>
+          <button type="button" class="button button-secondary" data-back-link>Назад</button>
+        </div>
+        <p class="catalog-page__description">Ежедневные позиции для обеспечения базового рациона и стабильного питания столовой.</p>
+        <div class="products-grid" data-catalog-list></div>
+        <div class="catalog-page__footer">
+          <button type="button" class="button button-primary" data-add-selected>Добавить в корзину</button>
+          <a href="cart.html" class="button button-secondary">Перейти в корзину</a>
+        </div>
+      </section>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>
